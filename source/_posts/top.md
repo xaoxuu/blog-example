@@ -12,7 +12,7 @@ valine:
 top: true
 ```
 
-这是一个示例博客。源码目录：[https://github.com/mxclub/example](https://github.com/mxclub/example)
+这是一个示例博客。源码目录：[https://github.com/xaoxuu/blog-example](https://github.com/xaoxuu/blog-example)
 
 
 <!-- more -->

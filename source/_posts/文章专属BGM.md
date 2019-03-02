@@ -5,6 +5,7 @@ categories: 教程
 music:
   type: song        # song （单曲） album （专辑） playlist （歌单） search （搜索）
   id: 26664345      # 歌曲/专辑/歌单 ID
+  autoplay: true
 valine:
   path: /top/
 ---
