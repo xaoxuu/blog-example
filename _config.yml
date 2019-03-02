@@ -1,0 +1,201 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Hexo
+subtitle:
+description:
+author: John Doe
+timezone:
+language:
+- zh-CN
+- en
+- zh-HK
+- zh-TW
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://mxclub.github.io/example
+root: /example/
+permalink: :title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: 'YYYY-MM-DD dddd'
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: material-x
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+- type: git
+  repo: https://github.com/mxclub/example.git
+  branch: gh-pages
+  message: update
+# >> 主题配置 ---------------------------------------------------------------------
+
+# 全局导入
+import:
+  css:
+  js:
+  meta:
+  - name: "theme-color"
+    content: "#f24e32"
+  - name: "msapplication-TileColor"
+    content: "#f24e32"
+  - name: "msapplication-config"
+    content: "https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicons/browserconfig.xml"
+  link:
+  - rel: 'shortcut icon'
+    type: 'image/x-icon'
+    href: 'https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicon.ico'
+  - rel: 'icon'
+    type: 'image/x-icon'
+    sizes: '32x32'
+    href: 'https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicons/favicon-32x32.png'
+  - rel: 'apple-touch-icon'
+    type: 'image/png'
+    sizes: '180x180'
+    href: 'https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicons/apple-touch-icon.png'
+  - rel: 'mask-icon'
+    href: 'https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicons/safari-pinned-tab.svg'
+    color: '#f24e32'
+  - rel: 'manifest'
+    href: 'https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/favicon/favicons/site.webmanifest'
+
+# 导航栏
+nav_menu:
+  - name: 主页
+    icon: fas fa-home
+    url: /
+  - name: 归档
+    icon: fas fa-archive
+    url: archives/
+  - name: 朋友
+    icon: fas fa-users
+    url: friends/
+  - name: 关于
+    icon: fas fa-user
+    url: about/
+
+# 侧边栏小部件
+widgets:
+  - widget: author
+    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png
+    jinrishici: 柳暗花明又一村
+    social: true
+  - widget: plain
+    icon: fas fa-bullhorn
+    title: 注意啦～
+    body: '本站使用 [Material X](https://xaoxuu.com/wiki/material-x/) 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦，超喜欢的话还可以安利给身边的朋友哦～'
+    more:
+      icon: fas fa-question-circle
+      url: https://xaoxuu.com/wiki/material-x/
+  - widget: category
+  - widget: tagcloud
+  - widget: list
+    icon: fas fa-medal
+    title: 精选项目
+    more:
+      icon: fas fa-arrow-right
+      url: https://xaoxuu.com/projects/
+    rows:
+      - name: HeartMate
+        desc: iOS应用程序
+        icon: fas fa-heartbeat
+        url: https://xaoxuu.com/heartmate/
+      - name: Material X
+        desc: Hexo博客主题
+        img: https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/%E7%9C%9F%E6%A3%92.png
+        url: https://xaoxuu.com/wiki/material-x/
+  - widget: list
+    icon: fas fa-link
+    title: 特别链接
+    rows:
+      - name: 关于我 / 留言板
+        icon: fas fa-comment-dots
+        url: https://xaoxuu.com/about/
+  - widget: music
+    icon: fas fa-compact-disc
+    title: "最近在听"
+    more:
+      icon: far fa-heart
+      url: https://music.163.com/#/user/home?id=63035382
+    server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
+    type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
+    id: 746319661     # 歌曲/专辑/歌单 ID
+  - widget: list
+    icon: fas fa-users
+    title: 友链
+    rows:
+      - name: xaoxuu's blog
+        avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png
+        url: https://xaoxuu.com
+  - widget: toc
+
+# 页脚社交信息
+social:
+  - icon: fas fa-rss
+    url: atom.xml
+  - icon: fas fa-envelope
+    url: mailto:me@xaoxuu.com
+  - icon: fab fa-github
+    url: https://github.com/xaoxuu
+  - icon: fas fa-headphones-alt
+    url: https://music.163.com/#/user/home?id=63035382
+
+# valine
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id: 1rN07DpQRE12WD9Au1SuWCww-gzGzoHsz
+  app_key: EAyPrjSfiYnuRDiIpwczBeJ4
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mp # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn
