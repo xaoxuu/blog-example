@@ -4,6 +4,7 @@ title: 置顶
 date: 2018-12-30
 categories: 教程
 top: true
+cover: false
 meta:
   date: false
 valine:
