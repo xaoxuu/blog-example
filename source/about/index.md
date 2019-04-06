@@ -1,5 +1,7 @@
 ---
+layout: page
 title: 关于
+body: [article, grid, comments]
 meta:
   header: false
   footer: false
