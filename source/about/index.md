@@ -15,13 +15,19 @@ sidebar: false
 <center>[<i class="fab fa-github"></i>][3] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-rss"></i>][4] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fab fa-instagram"></i>][5] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-headphones"></i>][6]</center>
 
 <hr>
-<center>我是个快乐的小码农，现就职于深圳[<img src="https://img.vim-cn.com/59/8c91935b1286d54405971a547923e7f9df4d59.png" height=12px>](http://www.szhittech.com/)，活跃于GitHub。</center>
+<center>我是个快乐的小码农，现就职于深圳 [<img src="https://img.vim-cn.com/59/8c91935b1286d54405971a547923e7f9df4d59.png" height=12px>](http://www.szhittech.com/) ，喜欢美剧和各种风格的纯音乐。</center>
 
 {% raw %}</div>{% endraw %}
 
 <hr><br>
 
-本站主题是: [Material X](https://xaoxuu.com/wiki/material-x/)
+#### 关于主题
+
+本站主题是：[Material X](https://xaoxuu.com/wiki/material-x/)
+Mac用户可以下载客户端哦：<a class="button" href="https://github.com/xaoxuu/MaterialX-Mac/releases/download/1.0.0/MaterialX-Installer.dmg"><i class="fas fa-download"></i> MaterialX-Installer.dmg</a>
+
+
+<br><hr><br>
 
 欢迎留言～
 
