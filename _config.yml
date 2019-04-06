@@ -73,8 +73,8 @@ theme: material-x
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/mxclub/blog-example.git
-  branch: gh-pages
+  repo: https://github.com/mxclub/mxclub.github.io.git
+  branch: master
   message: update
 # >> 主题配置 ---------------------------------------------------------------------
 
