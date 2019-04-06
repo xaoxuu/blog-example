@@ -1,4 +1,5 @@
 ---
+type: blog
 title: 文章专属BGM
 date: 2018-12-30
 categories: 教程

@@ -3,10 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Material X
+# avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
 subtitle:
 description:
-author: John Doe
+author: Mr.X
 timezone:
 language:
 - zh-CN
@@ -15,17 +16,17 @@ language:
 - zh-TW
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mxclub.github.io/blog-example
-root: /blog-example/
+url: http://mxclub.github.io
+root: /
 permalink: :title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: blog/tags
+archive_dir: blog/archives
+category_dir: blog/categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -43,7 +44,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -168,43 +169,7 @@ widgets:
         url: https://xaoxuu.com
   - widget: toc
 
-# 页脚社交信息
-social:
-  - icon: fas fa-rss
-    url: atom.xml
-  - icon: fas fa-envelope
-    url: mailto:me@xaoxuu.com
-  - icon: fab fa-github
-    url: https://github.com/xaoxuu
-  - icon: fas fa-headphones-alt
-    url: https://music.163.com/#/user/home?id=63035382
-
-share:
-  - id: qq
-    name: QQ好友
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png
-  - id: qzone
-    name: QQ空间
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png
-  - id: qrcode
-    name: 微信
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png
-  - id: weibo
-    name: 微博
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png
-  - id: qrcode
-    name: QRcode
-    img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png
-
 # valine
-valine:
-  enable: true # 如果你想用Valine评论系统，请设置enable为true
+leancloud:
   app_id: 1rN07DpQRE12WD9Au1SuWCww-gzGzoHsz
   app_key: EAyPrjSfiYnuRDiIpwczBeJ4
-  guest_info: nick,mail,link #valine comment header info
-  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
-  avatar: mp # gravatar style https://valine.js.org/avatar
-  pageSize: 10 # comment list page size
-  verify: false # valine verify code (true/false)
-  notify: false # valine mail notify (true/false)
-  lang: zh-cn
