@@ -2,9 +2,10 @@
 layout:     post
 type:       projects
 title:      vim-cn.sh
-author:     xaoxuu
-avatar:     https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-author_url: https://xaoxuu.com
+author:
+  name: xaoxuu
+  avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+  url: https://xaoxuu.com
 date:       2018-09-22
 updated:    2019-01-09
 categories: [Dev, Shell Scripts]

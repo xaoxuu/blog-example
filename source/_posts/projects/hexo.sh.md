@@ -2,9 +2,10 @@
 layout:     post
 type:       projects
 title:      hexo.sh
-author:     xaoxuu
-avatar:     https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-author_url: https://xaoxuu.com
+author:
+  name: xaoxuu
+  avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
+  url: https://xaoxuu.com
 date:       2018-08-09
 updated:    2019-04-04
 categories: [Dev, Hexo]

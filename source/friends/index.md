@@ -1,7 +1,7 @@
 ---
 layout: links
 title: 我的朋友们
-
+sidebar: []
 links:
   - group: 针对移动端做了优化哦
     icon: fas fa-handshake

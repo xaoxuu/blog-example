@@ -1,13 +1,12 @@
 ---
 layout: page
 title: 关于
-body: [article, grid, comments]
 meta:
-  header: false
-  footer: false
+  header: []
+  footer: []
+sidebar: []
 valine:
   placeholder: 有什么想对我说的呢？
-sidebar: false
 ---
 
 {% raw %}<div class="style-example example">{% endraw %}
@@ -17,7 +16,8 @@ sidebar: false
 <center>[<i class="fab fa-github"></i>][3] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-rss"></i>][4] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fab fa-instagram"></i>][5] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-headphones"></i>][6]</center>
 
 <hr>
-<center>我是个快乐的小码农，现就职于深圳 [<img src="https://img.vim-cn.com/59/8c91935b1286d54405971a547923e7f9df4d59.png" height=12px>](http://www.szhittech.com/) ，喜欢美剧和各种风格的纯音乐。</center>
+<center>这是测试博客，请随意留言，但是我不会回复
+<span><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'></span></center>
 
 {% raw %}</div>{% endraw %}
 
@@ -26,12 +26,18 @@ sidebar: false
 #### 关于主题
 
 本站主题是：[Material X](https://xaoxuu.com/wiki/material-x/)
-Mac用户可以下载客户端哦：<a class="button" href="https://github.com/xaoxuu/MaterialX-Mac/releases/download/1.0.0/MaterialX-Installer.dmg"><i class="fas fa-download"></i> MaterialX-Installer.dmg</a>
+
+<br>
+
+#### One More Thing
+
+懒加载占位图如果喜欢请拿去：[图片链接](https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg)
+
+<br><hr>
+
+<center>欢迎灌水</center>
 
 
-<br><hr><br>
-
-欢迎留言～
 
 [1]: /about/
 [2]: http://www.szhittech.com/
