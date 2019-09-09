@@ -37,7 +37,9 @@ valine:
 
 <center>欢迎灌水</center>
 
+<br>
 
+<iframe src="//player.bilibili.com/player.html?aid=52012946&cid=91055960&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"> </iframe>
 
 [1]: /about/
 [2]: http://www.szhittech.com/
