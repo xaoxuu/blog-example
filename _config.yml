@@ -8,7 +8,7 @@ title: Demo
 logo: https://img.vim-cn.com/d1/4911906ca05da0805cb6dc3e5b44f3d4a4e8a3.png
 subtitle:
 description:
-author: Mr.X
+author: Mr. X
 timezone:
 language:
 - zh-CN
@@ -74,7 +74,7 @@ theme: material-x
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/mxclub/mxclub.github.io.git
+  repo: git@github.com:mxclub/mxclub.github.io.git
   branch: master
   message: update
 # >> 主题配置 ---------------------------------------------------------------------
