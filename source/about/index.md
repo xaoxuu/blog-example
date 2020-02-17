@@ -33,13 +33,14 @@ valine:
 
 懒加载占位图如果喜欢请拿去：[图片链接](https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg)
 
-<br><hr>
-
-<center>欢迎灌水</center>
 
 <br>
 
 <iframe src="//player.bilibili.com/player.html?aid=52012946&cid=91055960&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"> </iframe>
+
+<br><hr>
+
+<center>欢迎灌水</center>
 
 [1]: /about/
 [2]: http://www.szhittech.com/

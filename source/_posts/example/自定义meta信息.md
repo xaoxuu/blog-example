@@ -6,7 +6,7 @@ categories: 教程
 tags: ss
 meta:
   header: [title, author, updated, counter]
-  footer: [categories, tags, share]
+  footer: [category, tags, share]
 valine:
   path: /top/
 ---
@@ -21,6 +21,7 @@ categories
 tags
 counter
 top
+wordcount
 ```
 
 例如本文：
@@ -34,7 +35,7 @@ categories: 教程
 tags: ss
 meta:
   header: [title, author, updated, counter]
-  footer: [categories, tags, share]
+  footer: [category, tags, share]
 valine:
   path: /top/
 ---
