@@ -48,6 +48,10 @@ highlight:
   auto_detect: false
   tab_replace:
 
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
+markdown: 'default'
+
 # Category & Tag
 default_category: uncategorized
 category_map:

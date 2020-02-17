@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.9.0"
+    "version": "4.2.0"
   },
   "dependencies": {
-    "hexo": "^3.9.0",
+    "hexo": "^4.2.0",
     "hexo-autoprefixer": "^1.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -18,7 +18,6 @@
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-qrcode": "^1.0.2",
     "hexo-lazyload-image": "^1.0.3",
-    "hexo-related-popular-posts": "^3.0.3",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-less": "^1.0.0",
     "hexo-renderer-markdown-it": "^4.0.0",
