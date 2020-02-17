@@ -10,20 +10,24 @@ valine:
 ---
 
 {% raw %}<div class="style-example example">{% endraw %}
-<ul class="pure circle center about"><li><img  src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png"></li></ul>
+<ul class="pure circle center about"><li><img  src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png"></li></ul>
 
+<center>
 
-<center>[<i class="fab fa-github"></i>][3] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-rss"></i>][4] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fab fa-instagram"></i>][5] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<i class="fas fa-headphones"></i>][6]</center>
+<p>
+<a href="https://github.com/xaoxuu"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://xaoxuu.com/blog/"><i class="fas fa-rss"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/xaoxuu"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://music.163.com/#/user/home?id=63035382"><i class="fas fa-headphones"></i></a>
 
-<hr>
-<center>这是测试博客，请随意留言，但是我不会回复
-<span><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/滑稽.png'></span></center>
+我是个快乐的小码农，现从事于iOS开发工作，喜欢美剧和各种风格的纯音乐。
+</p>
+
+</center>
 
 {% raw %}</div>{% endraw %}
 
 <hr><br>
-
-- [ ] dsfd
 
 #### 关于主题
 
