@@ -15,6 +15,9 @@ language:
 - en
 - zh-HK
 - zh-TW
+
+copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://mxclub.github.io
