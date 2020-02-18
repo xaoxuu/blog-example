@@ -19,7 +19,7 @@ permalink: https://xaoxuu.com/wiki/hexo.sh/
 **一个方便管理与发布hexo博客的脚本。**
 
 
-<fancybox>![](https://img.vim-cn.com/e8/e14f6ecb16deb21e894e78c9ccc46729854394.png)<fancybox>
+<fancybox><img src='https://img.vim-cn.com/e8/e14f6ecb16deb21e894e78c9ccc46729854394.png'><fancybox>
 
 
 <!--more-->

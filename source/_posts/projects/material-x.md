@@ -18,7 +18,7 @@ permalink: https://xaoxuu.com/wiki/material-x/
 **一个简约的卡片式Hexo博客主题。**
 
 <fancybox>
-![](https://img.vim-cn.com/52/a54815c02ce232f11f54b2c547c1337828833c.png)
+<img src='https://img.vim-cn.com/52/a54815c02ce232f11f54b2c547c1337828833c.png'>
 </fancybox>
 
 

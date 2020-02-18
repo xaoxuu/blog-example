@@ -20,6 +20,6 @@ permalink: https://xaoxuu.com/wiki/vim-cn.sh/
 
 所以，这是一个快速批量**上传图片**的脚本。
 
-<fancybox>![](https://img.vim-cn.com/0d/e463788b9eb82f82b551d8da1cd4cbae9d64cb.png)<fancybox>
+<fancybox><img src='https://img.vim-cn.com/0d/e463788b9eb82f82b551d8da1cd4cbae9d64cb.png'><fancybox>
 
 <!--more-->
