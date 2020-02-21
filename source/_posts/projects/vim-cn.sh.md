@@ -1,6 +1,6 @@
 ---
 layout:     post
-type:       projects
+group: projects
 title:      vim-cn.sh
 author:
   name: xaoxuu

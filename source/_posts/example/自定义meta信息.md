@@ -1,5 +1,5 @@
 ---
-type: blog
+group: blog
 title: 自定义meta信息
 date: 2019-04-06
 categories: 教程
@@ -28,7 +28,7 @@ wordcount
 
 ```yml
 ---
-type: blog
+group: blog
 title: 自定义meta信息
 date: 2019-04-06
 categories: 教程

@@ -1,6 +1,6 @@
 ---
 layout:     post
-type:       projects
+group: projects
 title:      hexo.sh
 author:
   name: xaoxuu
